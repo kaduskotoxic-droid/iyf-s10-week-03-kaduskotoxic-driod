@@ -1,4 +1,4 @@
-# Kaduskotoxic Driod - Week 3 Project
+# ETHEN- Week 3 Project
 
 This project demonstrates mastering command line navigation, Git workflow, and project organization.
 
@@ -6,12 +6,12 @@ This project demonstrates mastering command line navigation, Git workflow, and p
 IYF-s10-week-03-kaduskotoxic-driod/
 +-- index.html
 +-- css/
-¦   +-- styles.css
+Â¦   +-- styles.css
 +-- images/
-¦   +-- screenshot.png
+Â¦   +-- screenshot.png
 +-- README.md
 +-- terminal-log.md
 
 ## Contact
-- Email: kaduskotoxic@gmail.com
+- Email: ethenmutiso9@gmail.com
 - GitHub: [@kaduskotoxic-driod](https://github.com/kaduskotoxic-driod)
