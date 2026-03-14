@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -14,40 +14,45 @@ header {
 nav {
     background: #555;
     text-align: center;
+    padding: 10px;
 }
 
 nav a {
     color: white;
+    margin: 15px;
     text-decoration: none;
-    padding: 15px 20px;
-    display: inline-block;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background: #222;
+    color: #ffd700;
 }
 
 section {
     padding: 40px;
-    margin: 20px;
-    background: white;
-    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
 }
 
 h2 {
     color: #333;
 }
 
+ul {
+    list-style: square;
+}
+
 .project {
-    background: #eee;
+    background: white;
     padding: 15px;
-    margin-top: 10px;
-    border-radius: 5px;
+    margin: 10px 0;
+    border-left: 5px solid #333;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
     background: #333;
     color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
