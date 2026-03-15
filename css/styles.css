@@ -1,71 +1,97 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+/* Reset some default browser styles */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 40px;
+/* Page body */
+body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+color:#333;
+line-height:1.6;
 }
 
-nav {
-    background: #555;
-    text-align: center;
-    padding: 10px;
+/* Header */
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
 }
 
-nav a {
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-    font-weight: bold;
+/* Navigation bar */
+nav{
+background:#444;
+text-align:center;
+padding:12px;
 }
 
-nav a:hover {
-    color: #ffd700;
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
 }
 
-section {
-    padding: 40px;
-    max-width: 800px;
-    margin: auto;
+nav a:hover
+
+/* Sections */
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
 }
 
-h2 {
-    color: #333;
+/* Section titles */
+h2{
+margin-bottom:15px;
 }
 
-ul {
-    list-style: square;
+/* Skills list */
+ul{
+list-style:square;
+margin-left:20px;
 }
 
-.project {
-    background: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-left: 5px solid #333;
+/* Project box */
+.project{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
 }
 
-footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
+/* Code block for project structure */
+pre{
+background:#111;
+color:#00ff9d;
+padding:15px;
+border-radius:6px;
+margin-top:10px;
+overflow-x:auto;
 }
 
+/* GitHub button */
 .github-btn{
-  background:#24292e;
-  color:white;
-  padding:10px 18px;
-  text-decoration:none;
-  border-radius:6px;
-  font-weight:bold;
+display:inline-block;
+margin-top:10px;
+padding:10px 18px;
+background:black;
+color:white;
+text-decoration:none;
+border-radius:5px;
 }
 
-.github-btn:hover{
-  background:black;
+.github-btn:hover
+
+/* Footer */
+footer{
+text-align:center;
+background:#222;
+color:white;
+padding:15px;
+margin-top:30px;
 }
